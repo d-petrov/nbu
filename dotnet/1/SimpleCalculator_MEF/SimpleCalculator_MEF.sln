@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator_MEF", "SimpleCalculator_MEF\SimpleCalculator_MEF.csproj", "{B570B9DD-7D49-4836-8B5F-5554858999DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B570B9DD-7D49-4836-8B5F-5554858999DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B570B9DD-7D49-4836-8B5F-5554858999DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B570B9DD-7D49-4836-8B5F-5554858999DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B570B9DD-7D49-4836-8B5F-5554858999DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB6612C9-8A82-4DC3-A326-3F44D24BCC7A}
+	EndGlobalSection
+EndGlobal
