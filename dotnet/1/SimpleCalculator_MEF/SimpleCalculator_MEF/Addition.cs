@@ -7,8 +7,13 @@ using System.Threading.Tasks;
 
 namespace SimpleCalculator_MEF
 {
-    interface ICalculator
+    [Export(typeof(IOperation))]
+    [ExportMetadata("Symbol","+")]
+    class Addition : IOperation
     {
-        String Calculate(String input, Operation operation);
+        public int Operate(int left, int right)
+        {
+            return left + right;
+        }
     }
 }

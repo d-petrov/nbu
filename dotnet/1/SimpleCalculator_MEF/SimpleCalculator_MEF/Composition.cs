@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
+using System.ComponentModel.Composition.Primitives;
+using System.IO;
+using System.Reflection;
 
 namespace SimpleCalculator_MEF
 {
@@ -19,7 +22,7 @@ namespace SimpleCalculator_MEF
         {
             AggregateCatalog aggregatecatalog = new AggregateCatalog();
 
-            AssemblyCatalog assemblyCatalog = new AssemblyCatalog(typeof(Composition).Assembly);
+            AssemblyCatalog assemblyCatalog = new AssemblyCatalog(typeof(Program).Assembly);
 
             aggregatecatalog.Catalogs.Add(assemblyCatalog);
 

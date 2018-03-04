@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace SimpleCalculator_MEF
 {
-    interface ICalculator
+    interface IOperation
     {
-        String Calculate(String input, Operation operation);
+        int Operate(int left, int right);
     }
 }
